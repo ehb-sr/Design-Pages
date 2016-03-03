@@ -1,0 +1,151 @@
+/* **** MENU **** */
+
+.hidden.menu {
+    display: none;
+}
+
+.masthead.segment {
+    min-height: 700px;
+    padding: 1em;
+}
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+    margin-top: 3em;
+    font-size: 4em;
+    font-weight: normal;
+}
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.ui.vertical.stripe {
+    padding: 8em;
+}
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em;
+}
+
+.quote.stripe.segment {
+
+}
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer.segment {
+    padding: 5em;
+}
+
+.secondary.pointing.menu .toc.item {
+    display: none;
+}
+
+.imgLogo {
+    padding-right: 4em;
+}
+
+@media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+        display: none !important;
+    }
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+    .masthead.segment {
+        min-height: 350px;
+    }
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}
+
+
+/* *** WHAT IS *** */
+
+html {
+    background: url('Img/Grey-Background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    background:transparent !important;
+}
+.headerTittle {
+    margin-bottom: 1em !important;
+    margin-top: 1em !important;
+    color: #ff0000 !important;
+    font-size: 3.5em !important;
+}
+.headerSubTittle {
+    font-size: 1.3em;
+    margin-left: 26%;
+    margin-top: 1em;
+}
+.headerTittle2 {
+    margin-top: 0.5em !important;
+    color: #ff0000 !important;
+}
+.pText1 {
+    font-size: 1.3em !important;
+    margin-left: 5em !important;
+    margin-right: 5em !important;
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+.pText2 {
+    font-size: 1.3em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+.BulletList {
+    margin-left: 7.25rem !important;
+    margin-right: 16em !important;
+    font-size: 1.2em !important;
+}
+.BulletListHeader {
+    font-size: 1.28rem !important;
+    color: #e60000 !important;
+    margin-left: 5em !important;
+}
+.ButSchrijfIn {
+    margin-left: 42% !important;
+    margin-top: 2em !important;
+    font-size: 1.3em!important;
+    color:white!important;
+}
+.extraHe {
+    margin-bottom: 5em !important;
+}
