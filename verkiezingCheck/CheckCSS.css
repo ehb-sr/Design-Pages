@@ -1,0 +1,42 @@
+.gridImg {
+    margin-bottom: 5em !important;
+}
+.logoOne {
+    float:right;
+    margin-right: 4em !important;
+}
+.logoTwo {
+    margin-top:1.8em !important;
+}
+
+.tittlePage {
+    text-align: center;
+    font-size: 4em !important;
+    margin-bottom: 1em !important;
+}
+.gridList {
+    margin-bottom: 4em !important;
+}
+.fieldRight {
+    float:right;
+    margin-right: 14em !important;
+}
+.tittleHeader {
+    text-align: center;
+    margin-top:1em !important;
+    font-size:2em !important;
+    margin-bottom: 2em !important;
+}
+.gridInfo {
+    margin-left: 4em !important;
+    margin-bottom: 2em !important;
+}
+.labelRight {
+    float: right !important;
+}
+.email {
+    margin-left: 1em;
+}
+.containerInfo {
+    margin-bottom: 4em !important;
+}
