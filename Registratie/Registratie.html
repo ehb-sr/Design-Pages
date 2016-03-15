@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Registratie</title>
+    <link rel="stylesheet" type="text/css" href="semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="RegistratieCSS.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+   
+</head>
+<body>
+<div class="ui two column centered grid">
+	<div class="column">
+		<div class="ui medium images">
+			<img class="ui centered medium image" src="Img/SR_Logo2_transparant_wit.png" />
+			<img class="ui centered medium image" src="Img/srlogo2.jpg" />
+		</div>	
+	</div>
+</div>
+<div class="ui two column grid">
+    <div class="ui container segment extraHe">
+        <div class="row">
+            <h2 class="ui center aligned header headerTittle2">Vacature van een Studentenvertegenwoordiger</h2>
+        </div>
+        <div>
+            <p class="headerSubTittle">Per Departement zoeken we steeds twee mannen en twee vrouwen.</p>
+        </div>
+        <h3 class="ui header BulletListHeader">Wie zoeken we?</h3>
+        <div class="ui bulleted list BulletList">
+            <div class="item">Ben je geëngageerd, en zet je je graag in voor je medestudenten op de school?</div>
+            <div class="item">Heb je vernieuwende ideeën over de aanpak in de Erasmushogeschool? Ben je geïnteresseerd in alles binnen den buiten je campus en heb je hier een mening over? Laat je je mening ook horen en ben je niet bang om in discussie te gaan?</div>
+            <div class="item">Heb je de nodige skills om dingen te veranderen?</div>
+        </div>
+        <h3 class="ui header BulletListHeader">Wat wordt er van jou verwacht?</h3>
+        <div class="ui bulleted list BulletList">
+            <div class="item">Je kan tijd maken voor de vergaderingen en verantwoordelijkheden die bij je mandaat horen.</div>
+            <div class="item">Je kan essentiële informatie opslaan en doorspelen naar de Studentenraad.</div>
+            <div class="item">Je weet wat er leeft binnen en buiten je campus</div>
+        </div>
+        <h3 class="ui header BulletListHeader">Voordelen</h3>
+        <div class="ui bulleted list BulletList">
+            <div class="item">Je geniet van het statuut als Studentenvertegenwoordiger, dus mag je lessen overslaan om belangrijke vergaderingen bij te wonen.</div>
+            <div class="item">Je bouwt een interessant netwerk uit, waar je verschillende personen binnen de EhB, VVS of UAB leert kennen.</div>
+            <div class="item">Je verandert dingen ten goede voor je medestudenten, appreciatie zal volgen!</div>
+            <div class="item">Je stimuleert je ervaringen in verschillende belangrijke competenties zoals organiseren, vergaderen, standpunten realiseren, etc.</div>
+        </div>
+        <h3 class="ui header BulletListHeader">Ondersteuning</h3>
+        <div class="ui bulleted list BulletList">
+            <div class="item">Uigaves die relevant zijn met de Studentenraad worden terugbetaald</div>
+            <div class="item">Je krijgt de steun van andere studentenvertegenwoordigers om projecten uit te werken</div>
+            <div class="item">Je hebt de steun van verschillende beleidsadviseurs en medewerkers binnen de Erasmushogeschool</div>
+        </div>
+        <p class="pText2">Heb je interesse in studentenvertegenwoordiging? Laat dan van je horen, schrijf je in tijdens de Verkiezingen!
+        Opgepast! Je kunt u maar pas inschrijven wanneer het inschrijvingsperiode is. U krijgt een mail wanneer het inschrijvingsperioden beginnen.</p>
+        <button id="schrijfIn" class="ui button ButSchrijfIn">Schrijf je in!</button>
+    </div>
+</div>
+
+<div id="modaldiv" class="ui fullscreen modal">
+    <i class="close icon"></i>
+    <div class="header">
+		Registreer
+	</div>
+	<div class="content">
+		<form class="ui form">
+			<div class="field">
+			    <label>Naam</label>
+			    <div class="two fields">
+			      <div class="field">
+			        <input type="text" name="voornaam" placeholder="Voornaam">
+			      </div>
+			      <div class="field">
+			        <input type="text" name="achternaam" placeholder="Achternaam">
+			      </div>
+			    </div>
+		  	</div>
+		  	<div class="field">
+			    <label>Adres</label>
+			    <div class="two fields">
+			      <div class="field">
+			        <input type="text" name="straat" placeholder="Straat">
+			      </div>
+			      <div class="field">
+			        <input type="text" name="huisnr" placeholder="Huisnummer">
+			      </div>
+			    </div>
+			    <div class="two fields">
+			      <div class="field">
+			        <input type="text" name="postcode" placeholder="Postcode">
+			      </div>
+			      <div class="field">
+			        <input type="text" name="gemeente" placeholder="Gemeente">
+			      </div>
+			    </div>
+		  	</div>
+		  	<div class="field">
+			    <label>Persoonlijke gegevens</label>
+			    <div class="three fields">
+			      <div class="field">
+			        <input type="date" name="geboortedatum" placeholder="Geboortedatum">
+			      </div>
+			      <div class="field">
+			        <input type="text" name="nationaliteit" placeholder="Nationaliteit">
+			      </div>
+			      <div class="field">
+			        <select name="sex" class="ui dropdown">
+					  <option value="">Sex</option>
+					  <option value="1">Man</option>
+					  <option value="0">Vrouw</option>
+					</select>
+			      </div>
+			    </div>
+		  	</div>
+		  	<div class="field">
+			    <label>Contact</label>
+			    <div class="three fields">
+			      <div class="field">
+			        <input type="text" name="tel" placeholder="Tel">
+			      </div>
+			      <div class="field">
+			        <input type="text" name="gsm" placeholder="GSM">
+			      </div>
+			      <div class="field">
+			        <input type="email" name="email" placeholder="email">
+			      </div>
+			    </div>
+		  	</div>
+		  	<div class="field">
+			    <label>Student van Departement</label>
+			    <select name="departement" class="ui dropdown">
+				  <option value="">Departement</option>
+				  <option value="1">Dig-X</option>
+				  <option value="0">Multec</option>
+				</select>
+		  	</div>
+
+		  	<div class="ui one column stackable center aligned page grid">
+		  		<div class="column twelve wide">
+			  		<div class="field">
+			  			<div id="next" class="ui animated red button" tabindex="0">
+						  <div class="visible content">Next</div>
+						  <div class="hidden content">
+						    <i class="right arrow icon"></i>
+						  </div>
+						</div>
+			  		</div>
+		  		</div>
+		  	</div>
+		</form>
+	</div>
+</div>
+<div id="modaldiv2" class="ui fullscreen modal">
+    <i class="close icon"></i>
+    <div class="header">
+		Registreer je Medekandidaat!
+	</div>
+	<div class="content">
+		<form class="ui form">
+			<div class="field">
+			    <label>Naam</label>
+			    <div class="two fields">
+			      <div class="field">
+			        <input type="text" name="voornaam" placeholder="Voornaam">
+			      </div>
+			      <div class="field">
+			        <input type="text" name="achternaam" placeholder="Achternaam">
+			      </div>
+			    </div>
+		  	</div>
+		  	<div class="field">
+			    <label>Adres</label>
+			    <div class="two fields">
+			      <div class="field">
+			        <input type="text" name="straat" placeholder="Straat">
+			      </div>
+			      <div class="field">
+			        <input type="text" name="huisnr" placeholder="Huisnummer">
+			      </div>
+			    </div>
+			    <div class="two fields">
+			      <div class="field">
+			        <input type="text" name="postcode" placeholder="Postcode">
+			      </div>
+			      <div class="field">
+			        <input type="text" name="gemeente" placeholder="Gemeente">
+			      </div>
+			    </div>
+		  	</div>
+		  	<div class="field">
+			    <label>Persoonlijke gegevens</label>
+			    <div class="three fields">
+			      <div class="field">
+			        <input type="date" name="geboortedatum" placeholder="Geboortedatum">
+			      </div>
+			      <div class="field">
+			        <input type="text" name="nationaliteit" placeholder="Nationaliteit">
+			      </div>
+			      <div class="field">
+			        <select name="sex" class="ui dropdown">
+					  <option value="">Sex</option>
+					  <option value="1">Man</option>
+					  <option value="0">Vrouw</option>
+					</select>
+			      </div>
+			    </div>
+		  	</div>
+		  	<div class="field">
+			    <label>Contact</label>
+			    <div class="three fields">
+			      <div class="field">
+			        <input type="text" name="tel" placeholder="Tel">
+			      </div>
+			      <div class="field">
+			        <input type="text" name="gsm" placeholder="GSM">
+			      </div>
+			      <div class="field">
+			        <input type="email" name="email" placeholder="email">
+			      </div>
+			    </div>
+		  	</div>
+		  	<div class="field">
+			    <label>Student van Departement</label>
+			    <select name="departement" class="ui dropdown">
+				  <option value="">Departement</option>
+				  <option value="1">Dig-X</option>
+				  <option value="0">Multec</option>
+				</select>
+		  	</div>
+
+		  	<div class="ui one column stackable center aligned page grid">
+		  		<div class="column twelve wide">
+			  		<div class="field">
+			  			<input class="ui red button" type="submit" name="submit" value="Submit"/>
+			  		</div>
+		  		</div>
+		  	</div>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+    	$('#schrijfIn').click(function() {
+		  $('#modaldiv').modal('show')
+		});
+		$('#next').click(function() {
+		  $('#modaldiv2').modal('show')
+		});
+</script>
+</body>
+</html>
